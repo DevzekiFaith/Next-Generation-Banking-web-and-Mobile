@@ -1,0 +1,93 @@
+* {
+  padding   : 0;
+  margin    : 0;
+  box-sizing: border-box;
+}
+
+.Sec2 {
+  padding: 0 6rem;
+  background-color: rgba(243, 243, 243, 0.604);
+  height: 80vh;
+}
+
+h1 {
+  width: 400px;
+  padding-top: 4rem;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+
+}
+
+p{
+  width: 400px;
+  font-family: 'Public Sans', sans-serif;
+  margin-top: 1.5rem;
+}
+
+.ListingOne{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5.3rem;
+}
+
+h3{
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+}
+
+.PSecond{
+  width: 200px;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.OnlineIcon{
+  width: 50px;
+  margin-bottom: 2rem;
+}
+
+
+
+
+
+@media (max-width: 425px) {
+  .Sec2{
+    padding: 0;
+    height: 1300px;
+  }
+
+  .EasyBank{
+    margin-left: 4rem;
+  }
+
+  .EBank{
+    width: 200px;
+    margin-left: 2.8rem;
+  }
+
+  .PTag{
+    width:300px;
+    font-size: 15px;
+  
+  }
+
+  .ListingOne{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .OnlineIcon{
+    margin-left: 6rem;
+    width: 60px;
+  }
+
+  h3{
+    margin-left: 3.8rem;
+  }
+
+  .PSecond{
+    width: 260px;
+    font-size: 13px;
+  }
+}

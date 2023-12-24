@@ -1,0 +1,157 @@
+* {
+  padding   : 0;
+  margin    : 0;
+  box-sizing: border-box;
+}
+
+.HeroPage1 {
+  /* background-color: coral; */
+}
+
+.HeroGrid {
+  /* background-color: pink; */
+
+  display              : grid;
+  grid-template-columns: repeat(4, 300px 300px 300px 300px);
+  /* height: 300px; */
+  gap                  : 1rem;
+  padding              : 1rem 6rem;
+}
+
+h6{
+  padding: 1rem;
+}
+
+/* p{
+  margin-top: -1rem;
+} */
+
+span{
+  font-size: 26px;
+  cursor: pointer;
+}
+
+span:hover{
+  color: green;
+}
+
+.HeroOne{
+  background-color: aliceblue;
+}
+
+.HeroTwo{
+  background-color: aliceblue;
+}
+
+.HeroThree{
+  background-color: aliceblue;
+}
+
+.HeroFour{
+  background-color: aliceblue;
+}
+
+.HHFirst{
+  padding: 0 6rem;
+  font-family: 'Public Sans', sans-serif;
+  margin-top: 4rem;
+}
+
+.P1{
+  width: 300px;
+  padding: 1rem;
+}
+
+.HeTwo{
+  width: 300px;
+  padding: 1rem;
+}
+
+.HeThree{
+  width: 300px;
+  padding: 1rem;
+}
+
+.HeFour{
+  width: 300px;
+  padding: 1rem;
+}
+
+.HOne {
+  width: 100%;
+  height: 200px;
+}
+
+
+
+.HTwo {
+  width: 100%;
+  
+  
+}
+
+.HThree {
+  width: 100%;
+}
+
+.HFour {
+  width: 100%;
+}
+
+
+
+
+
+
+@media (max-width: 425px) {
+  .HeroGrid{
+    grid-template-columns: none;
+    padding: 0;
+  }
+
+  .HOne{
+    width: 85%;
+    margin-left: 1.8rem;
+    
+  }
+
+  .HHFirst{
+    margin-bottom: 2rem;
+
+  }
+
+  h6{
+    margin-left: 1.5rem;
+  }
+
+  .P1{
+    margin-left: 2rem;
+  }
+
+  .HTwo{
+    width: 85%;
+    margin-left: 1.8rem;
+  }
+
+  .HeTwo{
+    margin-left: 2rem;
+  }
+
+  .HThree{
+    width: 85%;
+    margin-left: 1.8rem;
+  }
+
+  .HeThree{
+    margin-left: 2rem;
+  }
+
+  .HFour{
+    width: 85%;
+    margin-left: 1.8rem;
+  }
+
+  .HeFour{
+    margin-left: 2rem;
+  }
+}

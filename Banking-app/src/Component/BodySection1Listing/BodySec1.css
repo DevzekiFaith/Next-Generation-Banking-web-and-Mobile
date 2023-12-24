@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.BodySec1{
+  margin-top: 6rem;
+  padding: 0 6rem;
+  display: flex;
+  justify-content: space-between;
+  height: 70vh;
+}
+
+.CornerImage{
+  position: absolute;
+  top: -4rem;
+  right: 8rem;
+  width: 800px;
+  z-index: -10;
+  /* display: none; */
+}
+
+.CImage{
+  width: 100%;
+}
+
+
+
+.MainH1{
+  width: 300px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+p{
+  width: 320px;
+  font-family: 'Public Sans', sans-serif;
+  font-size: .8rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.PhoneLogo{
+  width: 800px;
+  margin-right: -5rem;
+  margin-top: -20rem;
+}
+
+.RequestBtn{
+  padding: 6px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 180px;
+  height: 2.5rem;
+  border: none;
+  border-radius: 20px;
+  margin-top: 3rem;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 425px) {
+  .BodySec1{
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .PhoneLogo{
+    width: 380px;
+    margin-top: -16rem;
+    margin-left: 6px;
+  }
+
+  .CornerImage{
+    width: 500px;
+    top: -3rem;
+    left: -2rem;
+    display: block;
+    
+  }
+
+  .CImage{
+    width: 100%;
+   
+  }
+
+  .MainH1{
+    margin: 0;
+    margin-left: 1.3rem;
+  }
+
+  .CombinedWords{
+    position: absolute;
+    top: 14.8rem;
+    left: 4rem;
+  }
+
+  .MainP1{
+    width: 280px;
+  }
+
+  .RequestBtn{
+    margin-left: 3rem;
+  }
+}
